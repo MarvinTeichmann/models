@@ -67,7 +67,7 @@ def vgg_a(inputs,
           num_classes=1000,
           is_training=True,
           dropout_keep_prob=0.5,
-          spatial_squeeze=True,
+          spatial_squeeze=False,
           scope='vgg_a'):
   """Oxford Net VGG 11-Layers version A Example.
 
@@ -126,7 +126,7 @@ def vgg_16(inputs,
            num_classes=1000,
            is_training=True,
            dropout_keep_prob=0.5,
-           spatial_squeeze=True,
+           spatial_squeeze=False,
            scope='vgg_16'):
   """Oxford Net VGG 16-Layers version D Example.
 
@@ -185,7 +185,7 @@ def vgg_19(inputs,
            num_classes=1000,
            is_training=True,
            dropout_keep_prob=0.5,
-           spatial_squeeze=True,
+           spatial_squeeze=False,
            scope='vgg_19'):
   """Oxford Net VGG 19-Layers version E Example.
 
